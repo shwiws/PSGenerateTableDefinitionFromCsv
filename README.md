@@ -36,8 +36,8 @@ CSVを読み込んで各列のSQL Server用の定義候補を生成します。
 以下のような候補を出力します。
 
 |Column|Index|Text|Integer|Decimal|Boolean|
-|----|----|----|----|----|----|----|
-|ID|0|[ID] \[CHAR](1) NOT NULL|[ID] [TINYINT] NOT NULL|||
+|----|----|----|----|----|----|
+|ID|0|\[ID\] \[CHAR\](1) NOT NULL|\[ID\] \[TINYINT\] NOT NULL|||
 |Namae|1|[Namae] \[NVARCHAR](10) NOT NULL||||
 |Name|2|[Name] \[VARCHAR](10) NULL||||
 |Rate|3|[Rate] \[VARCHAR](6) NULL||[Rate] \[DECIMAL](5,4) NULL||
