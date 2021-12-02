@@ -1,0 +1,7 @@
+﻿|Column|Index|Text|Integer|Decimal|Boolean|
+|ID|0|[ID] [CHAR](1) NOT NULL|[ID] [TINYINT] NOT NULL|||
+|Namae|1|[Namae] [NVARCHAR](10) NOT NULL||||
+|Name|2|[Name] [VARCHAR](10) NULL||||
+|Rate|3|[Rate] [VARCHAR](6) NULL||[Rate] [DECIMAL](5,4) NULL||
+|Flag01|4|[Flag01] [CHAR](1) NOT NULL|[Flag01] [TINYINT] NOT NULL||[Flag01] [BIT] NOT NULL|
+|FlagTF|5|[FlagTF] [VARCHAR](5) NOT NULL|||[FlagTF] [BIT] NOT NULL|
