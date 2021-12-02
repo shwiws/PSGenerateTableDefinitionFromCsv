@@ -22,7 +22,6 @@ CSVを読み込んで各列のSQL Server用の定義候補を生成します。
 
 # デモ
 
-> cd Sample
 > powershell -File Src\GenerateTableDefinitionFromCsvTest.ps1 -File Sample\sample.csv
 
 このようなCSVから・・・
